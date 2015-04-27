@@ -1,0 +1,4 @@
+Process,Type,UserDomainName,UserEmailAddress,ManagerDomainName,ManagerEmailAddress
+TRUE,OnLine,,abe@AbeDemoTrial2015.onmicrosoft.com,,Manager1@AbeDemoTrial2015.onmicrosoft.com
+TRUE,OnLine,,Test3@AbeDemoTrial2015.onmicrosoft.com,,Manager3@AbeDemoTrial2015.onmicrosoft.com
+TRUE,OnLine,CONTOSO\Test2,Test2@AbeDemoTrial2015.onmicrosoft.com,Contoso\Manager2,Manager2@AbeDemoTrial2015.onmicrosoft.com

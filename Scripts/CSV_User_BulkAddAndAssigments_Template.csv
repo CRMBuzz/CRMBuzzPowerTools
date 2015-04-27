@@ -1,0 +1,4 @@
+Process,Type,Create,DomainName,EmailAddress,ApproveEmail,FirstName,LastName,Title,SecurityRole1,SecurityRole2,SecurityRole3,FieldSecurityProfile1,FieldSecurityProfile2,Team1,Team2,Team3,Team4
+TRUE,online,FALSE,CONTOSO\Manager1,Manager1@AbeDemoTrial2015.onmicrosoft.com,TRUE,Manager1,Manager1,Consultant,CEO-Business Manager,System Administrator,NA,System Administrator,NA,AdminTeam,TestAccess1,NA,NA
+TRUE,online,FALSE,CONTOSO\Manager2,Manager2@AbeDemoTrial2015.onmicrosoft.com,TRUE,Manager2,Manager2,Call Center Agent,Customer Service Representative,Marketing Manager,Sales Manager,System Administrator,NA,TestAccess1,TestAccess2,AdminTeam,NA
+TRUE,online,FALSE,CONTOSO\Manager3,Manager3@AbeDemoTrial2015.onmicrosoft.com,TRUE,Manager3,Manager3,Call Center Manager,CSR Manager,Customer Service Representative,CEO-Business Manager,NA,NA,TestAccess1,TestAccess2,AdminTeam,NA

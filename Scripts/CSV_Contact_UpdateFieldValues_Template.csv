@@ -1,0 +1,14 @@
+Process,FullName,CustomerIdentity,KeyNumber,Email
+TRUE,Yvonne McKay (sample),ABC_100000001,ABC_100000001,someone_a@example.com
+TRUE,Susanna Stubberod (sample),ABC_100000002,ABC_100000002,someone_b@example.com
+TRUE,Nancy Anderson (sample),ABC_100000003,ABC_100000003,someone_c@example.com
+TRUE,Maria Campbell (sample),ABC_100000004,ABC_100000004,someone_d@example.com
+TRUE,Sidney Higa (sample),ABC_100000005,ABC_100000005,someone_e@example.com
+TRUE,Scott Konersmann (sample),ABC_100000006,ABC_100000006,someone_f@example.com
+TRUE,Robert Lyon (sample),ABC_100000007,ABC_100000007,someone_g@example.com
+TRUE,Paul Cannon (sample),ABC_100000008,ABC_100000008,someone_h@example.com
+TRUE,Rene Valdes (sample),ABC_100000009,ABC_100000009,someone_i@example.com
+TRUE,Jim Glynn (sample),ABC_100000010,ABC_100000010,someone_j@example.com
+TRUE,Patrick Sands (sample),ABC_100000011,ABC_100000011,someone_k@example.com
+TRUE,Susan Burk (sample),ABC_100000012,ABC_100000012,someone_l@example.com
+TRUE,Thomas Andersen (sample),ABC_100000013,ABC_100000013,someone_m@example.com

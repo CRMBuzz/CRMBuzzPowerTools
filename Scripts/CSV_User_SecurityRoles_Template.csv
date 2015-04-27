@@ -1,0 +1,5 @@
+Process,Type,DomainName,EmailAddress,FirstName,LastName,RemoveRole,AddRole,RemoveFieldProfile,AddFieldProfile
+TRUE,OnLine,,Manager1@AbeDemoTrial2015.onmicrosoft.com,Manager1,Manager1,CEO-Business Manager,NA,NA,System Administrator
+TRUE,OnLine,,Manager1@AbeDemoTrial2015.onmicrosoft.com,Manager1,Manager1,NA,System Customizer,NA,NA
+TRUE,OnLine,CONTOSO\Test1,Manager2@AbeDemoTrial2015.onmicrosoft.com,Manager2,Manager2,Customer Service Representative,NA,NA,NA
+TRUE,OnLine,CONTOSO\Test2,Manager3@AbeDemoTrial2015.onmicrosoft.com,Manager3,Manager3,CSR Manager,Customer Service Representative,NA,NA

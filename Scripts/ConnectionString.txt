@@ -1,1 +1,1 @@
-"Url=https://AbeDemoTrial2015.crm.dynamics.com; Username=abe@AbeDemoTrial2015.onmicrosoft.com; password=Password; Timeout=00:45:00"
+Url=https://AbeDemoTrial2015.crm.dynamics.com; Username=abe@AbeDemoTrial2015.onmicrosoft.com; password=Password; Timeout=00:45:00

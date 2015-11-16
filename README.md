@@ -1,132 +1,155 @@
-# CRMBuzzPowerTools
-CRM Administration and Configuration Automation framework and Tool
-
-
 The administration and configuration task you can automate using PowerShell scripts, automate user creation, assign teams, queues, security roles, field level security reusing PowerShell scripts
 
 The idea for the framework is to allow the administrator to have an automation option for the manual configuration and administration task using the flexibility of PowerShell and the extensions on the CRM SDK
 
-The framework contains 75+ cmdlets included in a PowerShell Snapin, the cmdlets are extensions of .Net framework and CRM SDK objects you will be able to manipulate with ease. 
+The framework contains 96+ cmdlets included in a PowerShell Snapin, the cmdlets are extensions of .Net framework and CRM SDK objects you will be able to manipulate with ease.
 
-These are some of the group of cmdlets 
+These are some of the group of cmdlets
 
-- CRM General Objects (15)
-* Get-AssemblyVersion
-* Get-EntityCollection
-* Get-CRMEntity
-* Get-ActivityParty
-* New-ColumnSet
-* New-ConditionExpression
-* New-FilterExpression
-* New-LinkEntity
-* New-OrderExpression
-* New-QueryExpression
-* Set-OptionSetValue
-* Set-EntityReference
-* Write-ToFile
-* New-Guid
-* ConvertTo-Guid
+CRM General Objects (19)
 
+ConvertTo-DateTime
+ConvertTo-Guid
+Get-ActivityParty
+Get-AssemblyVersion 2.0.0.15
+Get-CRMEntity
+Get-EntityCollection
+New-ColumnSet
+New-ConditionExpression
+New-FilterExpression
+New-Guid
+New-KeyAttributeCollection <NEW>
+New-LinkEntity
+New-OrderExpression
+New-QueryExpression
+Set-EntityReference
+Set-EntityReferenceAlternateKey <NEW>
+Set-OptionSetValue
+Set-RecordImageProfile <NEW>
+Write-ToFile
+Business Management (3)
 
-- CRM Core Objects (14)
-* Add-NoteAttachment
-* Convert-Lead
-* ConvertTo-DateTime
-* Get-EntityReferenceByName
-* Get-NoteAttachments
-* Merger-CALRecords
-* New-OrganizationConnection
-* Assign-Record (Old-Set-Assign)
-* Create-Record (Old Set-Create)
-* Delete-Record (Old Set-Delete)
-* Retrieve-Record (Old Set-Retrieve)
-* Update-Record (Old Update-Entity)
-* Update-StatusAndState
-* Update-ActivityStatusAndState
+Close Case
+Lose Opportunity
+Won Opportunity
+CRM Core Objects (15)
 
-- Audit (2)
-* Enable-AuditForEntity
-* Enable-AuditForOrganization
+New-OrganizationConnection
+Add-NoteAttachment
+Assign-Record
+Convert-Lead
+Create-Record
+Delete-Record
+ConvertTo-DateTime
+Get-EntityReferenceByName
+Get-EntityReferenceByTwoFields <NEW>
+Get-NoteAttachments
+Merger-CALRecords
+Retrieve-Record
+Set-Upsert <NEW>
+Update-ActivityStatusAndState
+Update-Record
+Update-StatusAndState
+Audit (3)
 
-- Entity Connections (9)
-* Associate-EntityConnectionRole
-* Find-AssociatedEntityConnectionRole
-* Get-AssociatedEntityConnectionRole
-* Get-EntityConnectionRole
-* New-EntityConnection
-* New-EntityConnectionRole
-* New-ReciprocalEntityConnectionRole
-* Query-EntityConnections
-* Query-EntityConnectionRoles
+Get-AuditDetails <NEW>
+Enable-AuditForEntity
+Enable-AuditForOrganization
+Entity Connections (9)
 
-- CRM Search (7)
-* ConverFrom-FetchXMLToQueryExpression
-* ConvertFrom-QueryExpressionToFetchXML
-* Search-EntityFull
-* Search-EntityId
-* Search-FetchXML
-* Search-QueryExpression
-* Search-QueryByAttribute
+Associate-EntityConnectionRole
+Find-AssociatedEntityConnectionRole
+Get-AssociatedEntityConnectionRole
+Get-EntityConnectionRole
+New-EntityConnection
+New-EntityConnectionRole
+New-ReciprocalEntityConnectionRole
+Query-EntityConnections
+Query-EntityConnectionRoles
+Execute Multiple (3)
 
-- CRM SharePoint Integration (5)
-* Get-SPSite
-* Get-SPLocation
-* New-SPLocationRecord
-* Remove-DocumentManagement
-* Enable-DocumentManagement
+Execute-MultipleCreate <NEW>
+Execute-MultipleUpdate <NEW>
+Execute-MultipleDelete <NEW>
+CRM Search (7)
 
-- CRM Solutions (8)
-* Export-AllWebResources
-* Export-Solution
-* Export-WebResource
-* Import-Solution
-* New-Publisher
-* Publish-AllCustomizations
-* Remove-Publisher
-* Remove-Solution
+ConverFrom-FetchXMLToQueryExpression
+ConvertFrom-QueryExpressionToFetchXML
+Search-EntityFull
+Search-EntityId
+Search-FetchXML
+Search-QueryExpression
+Search-QueryByAttribute
+CRM SharePoint Integration (5)
 
-- CRM Teams/Queues (7)
-* Add-Queue
-* Add-Team
-* Add-ActivityToQueue
-* Assign-QueueItemWorker
-* Set-TeamAssignRole
-* Set-TeamAssignToFieldSecurityProfile
-* Set-TeamAssignToUser
+Get-SPSite
+Get-SPLocation
+New-SPLocationRecord
+Remove-DocumentManagement
+Enable-DocumentManagement
+CRM Solutions (8)
 
-- CRM Users (7)
-* Add-User
-* Get-User
-* Get-UserAccessMembership
-* Set-UserApproveEmail
-* Remove-AssignedRoleAndFieldSecurityProfile
-* Set-UserAssignSecurityRole
-* Set-UserAssignSecurityRoleAndFieldSecurityProfile
+Export-AllWebResources
+Export-Solution
+Export-WebResource
+Import-Solution
+New-Publisher
+Publish-AllCustomizations
+Remove-Publisher
+Remove-Solution
+CRM Teams/Queues (7)
 
-- CRM Workflows (4)
-* Get-Workflow
-* Invoke-BulkWorkflowProcess
-* Invoke-Workflow
-* New-BulkDeleteWorkflow
+Add-ActivityToQueue
+Add-Queue
+Add-Team
+Add-UserToRecordAccessTeam <NEW>
+Assign-QueueItemWorker
+Remove-UserToRecordAccessTeam <NEW>
+Set-QueueEmail
+Set-TeamAssignRole
+Set-TeamAssignToFieldSecurityProfile
+Set-TeamAssignUser
+CRM Users (9)
 
-More cmdlets in the near future
-- Execute Multiple
-- Marketing and Campaign cmdlets
+Add-User
+Get-User
+Get-UserAccessMembership <NEW>
+Remove-AssignedRoleAndFieldSecurityProfile
+Set-UserApproveEmail
+Set-UserAssignManager
+Set-UserAssignRole
+Set-UserAssignRoleAndFieldProfile
+Update-UserAccessMode <NEW>
+CRM Workflows (4)
 
+Get-Workflow
+Invoke-BulkWorkflowProcess
+Invoke-Workflow
+New-BulkDeleteWorkflow <NEW>
+Other functions (4)
 
+Add-AssemblyToGAC
+Add-SampleData
+Remove-SampleData
+Send-MailMessage (SMTP Configuration)
 Sample Scripts
 
 The framework will contain a download file with the sample scripts and how to use the scripts to automate the available task.
 
-The scripts do not require to install the framework in your server every script can execute these scripts from your workstation, most of the scripts will apply to the Online and On-premisses, except for cmdlets related to User creation, those cmdlets will be available only for On-Prem
-
+The scripts do not require to install the framework in your server every script can execute these scripts from your workstation, most of the scripts will apply to the Online and On-premises, except for cmdlets related to User creation, those cmdlets will be available only for OnPrem
 
 Framework Installation
 
 The framework will have an installation script that will help you install the core assembly and the related CRM SDK required assemblies, please take a look at the documentation page for more details
-http://www.crmbuzz.co/crmbuzzpowertoolsmoduleinstallation/
 
+CRMBuzzPowerTools Module Installation
+
+Registering CRMBuzzPowerTools
 
 Source Code
 
 I will be including the Source Code and want to do a clean up before making it available, more details coming soon
+
+Enjoy!
+
+Abraham (Abe) Saldana.
